@@ -3,7 +3,7 @@
 A small React + TypeScript app that lets you search any city and see its current temperature and wind speed, using live data from the free Open-Meteo API.
 
 ## Live Demo
-[Add your deployed link here once you deploy it]
+[https://weather-app-ten-swart-45.vercel.app/]
 
 ## Built With
 - React
