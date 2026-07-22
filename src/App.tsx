@@ -59,8 +59,9 @@ function App() {
           onKeyDown={(e) => e.key === 'Enter' && getWeather()}
         />
         <button onClick={getWeather} disabled={loading}>
-          {loading ? 'Loading...' : 'Search'}
-        </button>
+  Search
+  {loading && <span className="spinner"></span>}
+</button>
       </div>
 
       {error && <p className="error">{error}</p>}
